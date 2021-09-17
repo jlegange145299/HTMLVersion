@@ -11,11 +11,12 @@ class Login extends Component {
       email: "",
       isLogin: false,
       isRegister: false,
+      agree: false,
     };
     this.handleUsername = this.handleUsername.bind(this);
     this.handlePassword = this.handlePassword.bind(this);
     this.handleEmail = this.handleEmail.bind(this);
-
+    this.handleAgree = this.handleAgree.bind(this);
     this.handleLogin = this.handleLogin.bind(this);
     this.handleRegister = this.handleRegister.bind(this);
     this.handleBack = this.handleBack.bind(this);
@@ -24,6 +25,11 @@ class Login extends Component {
 
   handleUsername(event) {
     this.setState({ username: event.target.value })
+  }
+
+  handleAgree(event){
+    console.log(event.target.value);
+    this.setState({ agree: event.target.value === 'on' })
   }
 
   handlePassword(event) {
@@ -84,6 +90,14 @@ class Login extends Component {
             }
             <p>Password</p>
             <input type="password" value={this.state.password} onChange={this.handlePassword} />
+            <br/><br/>
+            {this.state.isRegister && (
+                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
+                  <input type="checkbox" style={{height: '17px', width: '17px'}} value={this.state.agree} onChange={this.handleAgree}/>
+                  <p style={{marginTop: '6px'}}>You should agree with <a target="_blank" style={{fontSize: '12px'}} href="/privacy">Privacy Policy </a>&nbsp;&nbsp;and&nbsp;&nbsp;<a target="_blank"  style={{fontSize: '12px'}} href="/terms">Terms  and  Services</a></p>
+                  <br />
+                </div>)
+            }
             <br /><br />
           </>
         }

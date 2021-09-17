@@ -536,12 +536,16 @@ class Home extends Component {
           <Chat messageList={this.state.messageList} chatMessage={this.state.chatMessage} handleChat={this.handleMessageBox} sendMessage={this.sendMessage} colors={colors} />
         }
         <GameScreen userCount={this.state.userCount} clickBalloon={this.clickBalloon} gameStarted={this.state.gameStarted} socket={socket}/>
-        <div style={{ position: "absolute", left: "0px", top: "0px", backgroundColor: "#00000052", borderRadius: "5px", margin: "10px", color: "white", padding: "5px" }}>
+        <div style={{ position: "absolute", left: "20px", top: "90px", backgroundColor: "#00000052", borderRadius: "5px", margin: "10px", color: "white", padding: "5px" }}>
           <h1>{this.state.userCount}</h1>
         Players</div>
-        <div style={{ position: "absolute", right: "0px", top: "0px", backgroundColor: "#00000052", borderRadius: "5px", margin: "10px", color: "white", padding: "5px" }}>
+        <div style={{ position: "absolute", right: "35px", top: "90px", backgroundColor: "#00000052", borderRadius: "5px", margin: "10px", color: "white", padding: "5px" }}>
           Balance
         <h1>{this.state.balance + this.state.spent}</h1></div>
+        <div style={{ position: "absolute", right: "300px", top: "21px", borderRadius: "5px", margin: "10px", color: "white", padding: "5px" }}>
+          <a className="changed-atag" target="_blank" href="/privacy"><h2>Privacy Policy</h2></a></div>
+        <div style={{ position: "absolute", right: "30px", top: "21px", borderRadius: "5px", margin: "10px", color: "white", padding: "5px" }}>
+          <a  className="changed-atag" target="_blank" href="/terms"><h2>Terms and Services</h2></a></div>
         {this.state.gameStarted ?
           <div onClick={this.quitGame} className="quitButton" style={{ position: "absolute", right: "0px", bottom: "0px", backgroundColor: "#00000052", borderRadius: "5px", margin: "10px", color: "white", padding: "5px" }}>
             Quit Game</div>
