@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acda3858-05ca-4fff-8eb2-fadc2f66402d" name="Default Changelist" comment="changed server url for deploy&#10;Build the script">
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/images/boom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phaser/Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phaser/Balloon Pop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phaser/Balloon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phaser/Clouds_01_Front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phaser/Clouds_02_Middle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phaser/Clouds_03_Back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/phaser/balloon_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.442c2478.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.442c2478.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/logo.103b5fa1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/theboldfont.8bb277ce.ttf" afterDir="false" />
+    <list default="true" id="acda3858-05ca-4fff-8eb2-fadc2f66402d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constansts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constansts.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -238,7 +221,7 @@
       <workItem from="1631831531145" duration="4437000" />
       <workItem from="1631860421205" duration="4500000" />
       <workItem from="1632177735916" duration="872000" />
-      <workItem from="1632212824475" duration="926000" />
+      <workItem from="1632212824475" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1631632369410</created>
@@ -247,11 +230,25 @@
       <option name="project" value="LOCAL" />
       <updated>1631632369410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed server url for deploy&#10;Build the script">
+      <created>1632252552539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632252552539</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Build again">
+      <created>1632253770315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632253770316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13661000" />
+    <option name="totallyTimeSpent" value="14734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1869" height="1057" extended-state="0" />
@@ -280,9 +277,11 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="changed server url for deploy&#10;Build the script" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed server url for deploy&#10;Build the script" />
+    <MESSAGE value="Build again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build again" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/popCount.txt">
