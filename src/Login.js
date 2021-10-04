@@ -94,7 +94,7 @@ class Login extends Component {
             {this.state.isRegister && (
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
                   <input type="checkbox" style={{height: '17px', width: '17px'}} value={this.state.agree} onChange={this.handleAgree}/>
-                  <p style={{marginTop: '6px'}}>You should agree with <a target="_blank" style={{fontSize: '12px'}} href="/privacy">Privacy Policy </a>&nbsp;&nbsp;and&nbsp;&nbsp;<a target="_blank"  style={{fontSize: '12px'}} href="/terms">Terms  and  Services</a></p>
+                  <p style={{marginTop: '6px'}}>By clicking "Register", you agree to our <a target="_blank" style={{fontSize: '12px'}} href="/privacy">Privacy Policy </a>&nbsp;&nbsp;and&nbsp;&nbsp;<a target="_blank"  style={{fontSize: '12px'}} href="/terms">Terms  and  Services</a></p>
                   <br />
                 </div>)
             }

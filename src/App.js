@@ -7,6 +7,8 @@ import GameScreen from './GameScreen.js';
 import Privacy from './Privacy.js';
 import Terms from "./Terms";
 
+
+
 class App extends Component {
   render() {
     return (
@@ -27,5 +29,7 @@ class App extends Component {
     );
   }
 }
+
+
 
 export default App;

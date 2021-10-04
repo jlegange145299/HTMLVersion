@@ -14,6 +14,8 @@ import getRandomInt from './utils';
 import { getTimeString } from './utils';
 import serverURL from './constansts';
 import Web3 from 'web3'
+
+
 const socket = openSocket(serverURL);//, {transports: ['websocket', 'polling'], secure: false});
 
 
@@ -528,6 +530,7 @@ class Home extends Component {
           </div>
         }
         <div className="Panel">
+
           <h1>CryptoPop</h1>
           {this.state.currentUser == "" ? <Login login={this.login} register={this.register} /> : (this.state.gameStarted ? null : profilePanels[this.state.currentPanel])}
         </div>
